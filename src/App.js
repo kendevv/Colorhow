@@ -1,28 +1,29 @@
 import React, {useState, useEffect} from 'react';
-import {CopyToClipboard} from 'react-copy-to-copyToClipboard';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 import './App.css';
 
-function App() {
+export default function App() {
+  const colors = [
+    "#fed049",
+    "#007580",
+    "#282846",
+    "#d8ebe4",
+    "#c5d7bd",
+    "#9fb8ad",
+    "#383e56",
+    "#fb743e",
+    "#dddddd",
+    "#222831",
+    "#30475e",
+    "#f05454",
+
+
+  ];
+  const[background, setBackground]= useState("#dddddd");
+  const[current, setCurrent]= useState(null);
+
   return (
-    const colors = [
-      "#fed049",
-      "#007580",
-      "#282846",
-      "#d8ebe4",
-      "#c5d7bd",
-      "#9fb8ad",
-      "#383e56",
-      "#fb743e",
-      "#dddddd",
-      "#222831",
-      "#30475e",
-      "#f05454",
-
-
-    ];
-    const[background, setBackground]= useState("#dddddd");
-    const[current, setCurrent]= useState(null);
 
     <div className="App" style={{background: background}}>
     {current !==null && <h1>Copied {current}</h1>}
