@@ -20,6 +20,54 @@ export default function App() {
 
 
   ];
+    const colors = [
+    "#fed049",
+    "#007580",
+    "#282846",
+    "#d8ebe4",
+    "#c5d7bd",
+    "#9fb8ad",
+    "#383e56",
+    "#fb743e",
+    "#dddddd",
+    "#222831",
+    "#30475e",
+    "#f05454",
+
+
+  ];
+    const colors = [
+    "#fed049",
+    "#007580",
+    "#282846",
+    "#d8ebe4",
+    "#c5d7bd",
+    "#9fb8ad",
+    "#383e56",
+    "#fb743e",
+    "#dddddd",
+    "#222831",
+    "#30475e",
+    "#f05454",
+
+
+  ];
+    const colors = [
+    "#fed049",
+    "#007580",
+    "#282846",
+    "#d8ebe4",
+    "#c5d7bd",
+    "#9fb8ad",
+    "#383e56",
+    "#fb743e",
+    "#dddddd",
+    "#222831",
+    "#30475e",
+    "#f05454",
+
+
+  ];
   const[background, setBackground]= useState("#dddddd");
   const[current, setCurrent]= useState(null);
 
