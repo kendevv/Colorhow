@@ -36,7 +36,7 @@ export default function App() {
 
 
   ];
-    const colors = [
+    const colorddddknslkSDNFS = [
     "#fed049",
     "#007580",
     "#282846",
